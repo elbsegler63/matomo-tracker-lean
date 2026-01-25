@@ -13,12 +13,12 @@ defined('ABSPATH') || exit;
  * - Set these via wp-config.php (recommended) or fallback constants below.
  *
  * In wp-config.php:
- *   define('MATOMO_URL', 'https://auswertung.jonas-zander.de');
+ *   define('MATOMO_URL', 'https://deine.matomo.url.de');
  *   define('MATOMO_SITE_ID', 1);
  */
 
 // Fallbacks (only used if constants not defined)
-if (!defined('MATOMO_URL'))     define('MATOMO_URL', 'https://auswertung.jonas-zander.de');
+if (!defined('MATOMO_URL'))     define('MATOMO_URL', '');
 if (!defined('MATOMO_SITE_ID')) define('MATOMO_SITE_ID', 0);
 
 /**
