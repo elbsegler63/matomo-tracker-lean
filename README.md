@@ -65,14 +65,14 @@ define('MATOMO_SITE_ID', 4);
 
 ---
 
-***Hinweise***
+### Hinweise
 Die URL muss https:// enthalten
 
 Kein trailing Slash
 
 MATOMO_SITE_ID ist die von Matomo vergebene Website-ID
 
-***Funktionslogik***
+### Funktionslogik
 
 Tracking wird nur ausgeführt, wenn alle Bedingungen erfüllt sind:
 
@@ -88,7 +88,10 @@ MATOMO_SITE_ID > 0
 
 In allen anderen Fällen wird kein Tracking-Code geladen.
 
-**Datenschutz**
+---
+
+
+### Datenschutz
 
 Es werden keine Cookies gesetzt
 
@@ -101,8 +104,9 @@ Keine personenbezogenen IDs
 Geeignet für DSGVO-sparsame Setups
 (rechtliche Bewertung liegt beim Seitenbetreiber)
 
+---
 
-**Überprüfung**
+## Überprüfung
 
 ***Tracking aktiv?***
 
@@ -128,7 +132,9 @@ Seite aufrufen
 
 Kein neuer Besucher in Matomo
 
-***Erweiterbarkeit***
+---
+
+## Erweiterbarkeit
 
 Für spätere Consent-Logik existiert ein Filter:
 
@@ -139,7 +145,9 @@ add_filter('matomo_lean_should_track', function ($allowed) {
 
 Das Plugin selbst bleibt dabei unverändert.
 
-**Versionierung**
+---
+
+## Versionierung
 
 1.0.0
 
