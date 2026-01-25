@@ -1,10 +1,12 @@
 # Matomo Tracker (Lean)
 
-Ein extrem leichtgewichtiges WordPress-Plugin zur Einbindung von **Matomo Web Analytics**
+Ein leichtgewichtiges WordPress-Plugin zur Einbindung von **Matomo Web Analytics**
 ohne Cookies, ohne Admin-Tracking und ohne Performance-Einbußen.
 
 Dieses Plugin richtet sich an Entwickler:innen und technisch versierte Anwender:innen,
 die Matomo **kontrolliert, datenschutzfreundlich und PageSpeed-neutral** einsetzen möchten.
+
+Erstellt mit Hilfe von AI (ChatGPT und Gemini)
 
 ---
 
