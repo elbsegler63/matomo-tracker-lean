@@ -1,7 +1,10 @@
 <?php
 /**
  * Plugin Name: Matomo Tracker (Lean)
+ * Plugin URI: https://github.com/elbsegler63/matomo-tracker-lean/edit/main/matomo-tracker-lean.php
  * Description: Lightweight Matomo tracking for the frontend (cookieless, no admin tracking).
+ * Author: Jonas Zander
+ * Author URI: https://www.wp-tipps.de
  * Version: 1.0.0
  * License: GPL-3.0-or-later
  */
